@@ -2,29 +2,20 @@
 
 (def blinker-board
   (list
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 1 0 0 0 0)
-   (list 0 0 0 0 0 1 0 0 0 0)
-   (list 0 0 0 0 0 1 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)))
+   (list 0 0 0 0 0)
+   (list 0 0 1 0 0)
+   (list 0 0 1 0 0)
+   (list 0 0 1 0 0)
+   (list 0 0 0 0 0)))
 
 (def glider-board
   (list
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 1 0 0 0 0 0 0 0)
-   (list 0 0 0 1 0 0 0 0 0 0)
-   (list 0 1 1 1 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)
-   (list 0 0 0 0 0 0 0 0 0 0)))
+   (list 0 0 0 0 0 0)
+   (list 0 0 1 0 0 0)
+   (list 0 0 0 1 0 0)
+   (list 0 1 1 1 0 0)
+   (list 0 0 0 0 0 0)
+   (list 0 0 0 0 0 0)))
 
 (def neighbor-deltas
   "[dx dy]"
